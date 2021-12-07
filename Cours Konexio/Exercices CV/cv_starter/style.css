@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: O;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav {
+    background-color: #0475ba;
+    overflow: hidden;
+    height: 70px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.topnav-left{
+    margin-right: 13px;
+    margin-top: 6px;
+}
+#nom {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    overflow: auto;
+    padding: 40px;
+    max-width: 80rem;
+}
+
+.img {
+    margin-left: 20em;
+    margin-top: 3em;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.title1 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-weight:bold;
+    font-size: 2em;
+}
+
+.title2 {
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    font-weight:bold;
+    font-size: 1.3em;
+    color: #0475ba;
+}
+/*
+.container {
+    padding: 40px;
+    display: flex;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.container1 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+*/
+
+.presentation { 
+    background-color: #0475ba;
+    padding: 40px;
+}
+
+#title3{
+    color: white;
+    margin-left:14em;
+}
+
+.presentation1 {
+    color: white;
+    padding-left: 16em;
+}
+
+.experiences {
+    padding: 40px;
+}
+
+#experiences{
+    color: #0475ba;
+    text-align: center;
+}
+
+.date {
+    float: right;
+}
+
+.h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.p1 {
+    margin-left: 21em;
+}
+.formations{
+    padding: 40px;
+    background-color: #0475ba;
+}
+#formations {
+    color: white;
+    margin-left: 14em;
+}
+.date1{
+    display: flex;
+    float: right;
+    color: white;
+}
+
+.title4 {
+    margin-left: 15em;
+    color: white;
+}
+#passions {
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.passions {
+    color: #0475ba;
+    margin-left: 14em;
+}
+
+.p2 {
+    margin-left: 14em;
+}
+
+footer{
+    background-color: #0475ba;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    height: 100%;
+}
+
+.footer-left {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 0.5em;
+}
+
+#footer1{
+    color: white;
+}
+
+#footer2{
+    color: white;
+    float: left;
+}
+/* partie responsive */
+@media screen and (max-width:700px) {
+
+    .topnav-left{
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .title1{
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .title2{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .img{
+        text-align: center;
+    }
+
+    .presentation {
+        text-align: center;
+        padding-right: 30px;
+    }
+
+
+}
